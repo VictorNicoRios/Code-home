@@ -1,0 +1,29 @@
+body{
+    background-color:#222831;
+    margin-left: 10cqmax;
+    margin-right: 10cqmax;
+    
+}
+.MainTitle{
+    text-align: center;
+    color: #0092ca;
+    font-family: 'Courier New', Courier, monospace;
+}
+.SubTitle{
+    text-align: center;
+    color: #eeee;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.bodybox{
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 20px;
+}
+.bodytext{
+    text-align: justify;
+    color: #eeee;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 5%;
+}
