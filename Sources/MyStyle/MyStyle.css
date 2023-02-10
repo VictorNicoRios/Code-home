@@ -1,8 +1,14 @@
 body{
     background-color:#222831;
-    margin-left: 10cqmax;
-    margin-right: 10cqmax;
-    
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 3px;
+    padding: 20px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    max-width: 720px;
 }
 .MainTitle{
     text-align: center;
@@ -12,21 +18,29 @@ body{
 .SubTitle{
     text-align: center;
     color: #eeee;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Courier New', Courier, monospace;
 }
 .textbodybox{
     border-style: solid;
     border-width: 1px;
     border-color: white;
-    border-radius: 20px;
+    border-radius: 10px;
+    margin: 10px;
 }
 .textbody{
     text-align: justify;
     color: #eeee;
     font-family:Arial, Helvetica, sans-serif;
-    margin: 0%;
-    padding: 5%;
+    margin: 3%;
 }
-.imageroller{
-    width: 33%;
+.imagebodybox{
+    width: 30%;
+    margin: 3%;
+}
+.imagesbody{
+    width: 100%;
+    float: left;
+}
+.BodyTextyImages{
+    padding: 1%;
 }
