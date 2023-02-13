@@ -21,11 +21,7 @@ body{
     font-family:'Courier New', Courier, monospace;
 }
 .textbodybox{
-    border-style: solid;
-    border-width: 1px;
-    border-color: white;
-    border-radius: 10px;
-    margin: 10px;
+    display: none;
 }
 .textbody{
     text-align: justify;
@@ -42,7 +38,11 @@ body{
     float: left;
 }
 .BodyTextyImages{
-    padding: 1%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 10px;
+    min-height: 155px;
 }
 
 
