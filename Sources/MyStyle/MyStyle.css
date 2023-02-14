@@ -1,4 +1,8 @@
-body{
+body{  
+  background-color: #222831;
+  /*background-image: url("../Images/Waifu.jpeg");*/
+}
+.bodycontainer{
     background-color:#222831;
     margin: auto;
     margin-top: 50px;
@@ -133,4 +137,20 @@ body{
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+.Download-section{
+  margin: 20px;
+  margin-top: 40px;
+  height: 20px;
+}
+
+.Download-button{
+  position: absolute;
+  left: 42%;
+  background-color: #0092ca;
+  color: white;
+  border-color: white;
+  height: 30px;
+  width: 150px;
+  font-family: 'Courier New', Courier, monospace;
 }
